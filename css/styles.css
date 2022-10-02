@@ -1,0 +1,46 @@
+#previewSection {
+	width: 100%;
+	height: 85%;
+}
+
+.img {
+	width: 250px;
+	height: 125px;
+	display: inline-block;
+	position: relative;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 13px;
+    opacity: 0;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+opacity: 0;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(17, 17, 17, 1); 
+    opacity: 0;
+}
+
+F
+::-webkit-scrollbar-button {
+	height: 10px;
+	width: 13px;
+	background: rgba(70, 70, 70, 1); 
+	opacity: 0;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+	width: 13px;
+	opacity: 0;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+	width: 13px;
+	opacity: 0;
+}
